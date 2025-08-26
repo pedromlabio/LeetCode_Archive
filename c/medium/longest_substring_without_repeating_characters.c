@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include <stdio.h>
+
 bool checkSubstring(char *subString, int start, int end, int* size) {
     int counter[256] = {0};
     int sizeCounter = (end+1) - start; //for some logic reasons end value needs to be added here to work
